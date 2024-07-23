@@ -273,7 +273,7 @@ footer{
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 860px) {
 
     
 
@@ -320,79 +320,28 @@ footer{
 
     .fp{
         position: relative;
-        left: 100px;
+        left: -550px;
+        top: 800px;
+        white-space: nowrap;
     }
 
     .imgf{
         position: relative;
-        left: 220px;
+        top: 560px;
+        left: 480px;
         height: 400px;
         width: 300px;
     }
 
+    .tf{
+        position: relative;
+        top: 500px;
+    }
+
     footer{
+        position: relative;
+        top: 500px;
         font-size: 16px;
     }
 }
 
-@media (max-width: 1080px) {
-
-    
-
-    body{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
-    .T{
-        margin-left: 650px;
-    }
-
-    .box{
-        height: 100px;
-        margin: 0;
-    }
-
-    .pcima{
-        margin-top: -60px;
-    }
-
-    .pbaixo{
-       margin-top: 30px;
-       margin-left: -447px;
-    }
-
-    .img{
-        margin-left: -10px;
-        height: 300px;
-    }
-
-    .img2{
-        height: 300px;
-        margin-left: 4px;
-    }
-
-    .folguedos{
-        position: relative;
-        left: -600px;
-        margin: 0;
-        padding: 0;
-    }
-
-    .fp{
-        position: relative;
-        left: 100px;
-    }
-
-    .imgf{
-        position: relative;
-        left: 220px;
-        height: 400px;
-        width: 300px;
-    }
-
-    footer{
-        font-size: 16px;
-    }
-}
