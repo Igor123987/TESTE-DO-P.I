@@ -272,3 +272,65 @@ footer{
         font-size: 16px;
     }
 }
+
+@media (max-width: 800px) {
+
+    
+
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .T{
+        margin-left: 650px;
+    }
+
+    .box{
+        height: 100px;
+        margin: 0;
+    }
+
+    .pcima{
+        margin-top: -60px;
+    }
+
+    .pbaixo{
+       margin-top: 30px;
+       margin-left: -447px;
+    }
+
+    .img{
+        margin-left: -10px;
+        height: 300px;
+    }
+
+    .img2{
+        height: 300px;
+        margin-left: 4px;
+    }
+
+    .folguedos{
+        position: relative;
+        left: -600px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .fp{
+        position: relative;
+        left: 100px;
+    }
+
+    .imgf{
+        position: relative;
+        left: 220px;
+        height: 500px;
+        width: 400px;
+    }
+
+    footer{
+        font-size: 16px;
+    }
+}
