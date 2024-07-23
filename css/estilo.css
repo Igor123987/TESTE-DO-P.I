@@ -211,30 +211,18 @@ footer{
     
 }
 
-@media (max-width: 800px) {
+@media (max-width: 860px) {
 
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        scroll-behavior: smooth;
-    }
+    
 
     body{
         margin: 0;
         padding: 0;
-        width: 100%;
-        overflow-x: hidden;
-    }
-
-    header{
-        margin: 0;
+        box-sizing: border-box;
     }
     
     .T{
-        position: relative;
-        z-index: -2px;
-        left: -120px;
+        margin-left: 650px;
     }
 
     .box{
@@ -243,36 +231,44 @@ footer{
     }
 
     .pcima{
-        position: relative;
-        top: -30px;
+        margin-top: -60px;
     }
 
     .pbaixo{
-        position: relative;
-        top: 20px;
-        left: -432px;
+       margin-top: 30px;
+       margin-left: -447px;
     }
 
     .img{
-        position: relative;
-        left: -70px;
+        margin-left: -10px;
+        height: 300px;
     }
 
     .img2{
+        height: 300px;
+        margin-left: 4px;
+    }
+
+    .folguedos{
         position: relative;
-        left: 4px;
-        width: 180px;
+        left: -600px;
+        margin: 0;
+        padding: 0;
     }
 
     .fp{
         position: relative;
-        left: -558px;
-        white-space: nowrap;
+        left: 100px;
     }
 
     .imgf{
         position: relative;
-        left: -482px;
-        width: 380px;
+        left: 250px;
+        height: 500px;
+        width: 400px;
+    }
+
+    footer{
+        font-size: 16px;
     }
 }
